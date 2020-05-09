@@ -15,5 +15,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent=new Intent(this,homework01.class);
         startActivity(intent);
     }
+    public  void startMain03(View view){
+        Intent intent=new Intent(this,homework03.class);
+        startActivity(intent);
+    }
 
 }
